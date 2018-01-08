@@ -15,7 +15,7 @@ RUN apt-get update && \
 		python2.7-dev \
 		ssh
 
-# Install nginx
+# Install nginx/1.10.3
 RUN apt-get install -y nginx
 
 # Configure nginx
